@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class UserInputs {
+public class UserInputsFromWindow {
     public static void main(String[] args) {
         int decimalNumber = 0;
         // El bloque try-catch permite capturar excepciones
