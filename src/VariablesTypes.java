@@ -21,6 +21,13 @@ public class VariablesTypes {
 
         System.out.println("Concatenación de variable Boolean y variable boolean: " + (booleanValue && booleanPrimitive));
 
+        // El tipo de dato Character es una clase que representa un carácter y tiene métodos para operar con él
+        Character characterValue = 'a';
+        // El tipo de dato char es un tipo de dato primitivo que representa un carácter y no tiene métodos para operar con él
+        char characterPrimitive = 'a';
+
+        System.out.println("Concatenación de variable Character y variable char: " + (characterValue + characterPrimitive));
+
         // El tipo de dato String es una clase que representa una cadena de caracteres y tiene métodos para operar con él
         // No existe un tipo de dato primitivo que represente una cadena de caracteres
         String stringValue = "Hola";
